@@ -1,0 +1,35 @@
+1. To find user of group
+grep <your_group_name> /etc/group
+
+scp -p server.xml admn@ul3936:$PWD    (to do this you need to know the admn password)
+
+kill -9
+ps -ef | grep Liberty
+
+To show all local and remote branches that (local) git knows about
+git branch -a
+
+To update the local list of remote branches:
+git remote update origin --prune
+
+To search and replace in vim editor:
+:%s/objectGroup/target_group/g
+
+VIM : To delete current line on vim : esc+dd 
+
+VIM : replace a line, position the cursor anywhere on the line and type cc. The line disappears, leaving a blank line for your new text : esc+cc
+
+VIM : To Undoing the Previous Command : Esc after you type u (Esc+u)
+
+VIM : Copying Lines - Copying a line requires two commands: yy or Y (“yank”) and either p (“put below”) or P (“put above”). Note that Y does the same thing as yy.
+To yank one line, follow these steps.
+1.Position the cursor anywhere on the line you want to yank.
+2.Type yy.
+3.Move the cursor to the line above where you want to put (copy) the yanked line.
+4.Type p.
+
+VIM : Moving Lines - Moving lines also requires two commands: dd (“delete”) and either p or P.
+
+VIM : Turning Line Numbers On(:set nu) and Off(:set nonu)
+
+GIT : To unstage "git reset HEAD <filename>"
